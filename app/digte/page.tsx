@@ -14,7 +14,7 @@ const DigtePage = () => {
 
   return (
     <>
-      <Header categories={categories} />
+      <Header />
 
       <main className="mx-auto w-11/12 md:w-1/2 mt-12 mb-20">
         <header className="mb-12 text-center">

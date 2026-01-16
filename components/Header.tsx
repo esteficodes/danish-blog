@@ -1,10 +1,6 @@
 import Link from "next/link";
 
-interface HeaderProps {
-  categories?: string[];
-}
-
-const Header = ({ categories = [] }: HeaderProps) => {
+const Header = () => {
   return (
     <header className="bg-neutral-100">
       <div className="mx-auto w-11/12 md:w-1/2 py-6">
