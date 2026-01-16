@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Article content styles */
+.article-content h1 {
+  @apply font-cormorantGaramond text-4xl font-light text-neutral-900 mt-8 mb-4;
+}
+
+.article-content h2 {
+  @apply font-cormorantGaramond text-3xl font-light text-neutral-900 mt-8 mb-4;
+}
+
+.article-content h3 {
+  @apply font-cormorantGaramond text-2xl font-light text-neutral-900 mt-6 mb-3;
+}
+
+.article-content p {
+  @apply mb-4 leading-relaxed;
+}
+
+.article-content ul,
+.article-content ol {
+  @apply mb-4 pl-6;
+}
+
+.article-content li {
+  @apply mb-2;
+}
+
+.article-content blockquote {
+  @apply border-l-4 border-amber-700 pl-4 italic text-neutral-600 my-6;
+}
+
+.article-content a {
+  @apply text-amber-700 hover:text-amber-900 underline transition duration-150;
+}
+
+.article-content code {
+  @apply bg-neutral-200 px-1.5 py-0.5 rounded text-sm font-mono;
+}
+
+.article-content pre {
+  @apply bg-neutral-800 text-neutral-100 p-4 rounded-lg overflow-x-auto my-6;
+}
+
+.article-content pre code {
+  @apply bg-transparent p-0;
+}
