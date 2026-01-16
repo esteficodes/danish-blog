@@ -9,7 +9,6 @@ export const metadata = {
 
 const TankerPage = () => {
   const articles = getCategorisedArticles();
-  const categories = Object.keys(articles);
   const tankerArticles = articles["Tanker"] || [];
 
   return (

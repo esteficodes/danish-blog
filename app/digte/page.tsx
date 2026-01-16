@@ -9,7 +9,6 @@ export const metadata = {
 
 const DigtePage = () => {
   const articles = getCategorisedArticles();
-  const categories = Object.keys(articles);
   const digteArticles = articles["Digte"] || [];
 
   return (
