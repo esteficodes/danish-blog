@@ -24,7 +24,7 @@ Du sendte beskeden via en anden kollega,
 
 og i morgen fortsætter dit liv i vega.
 
-Du køber en sandwich af mad og kærlighed,
+Du køber en sandwich på den lokale café “Mad og Kærlighed” lige overfor gaden,
 
 jeg bebrejder dig ikke, den smager af tryghed.
 
